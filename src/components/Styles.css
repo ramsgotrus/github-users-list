@@ -1,0 +1,47 @@
+.card {
+    align-items:center;
+    border:1px solid white;
+    border-radius:8px;
+    justify-items:center;
+    cursor: pointer;
+}
+.image {
+    background-color:white;
+    border-radius: 50%;
+    height:70px;
+    width:70px
+}
+.userDetailsCard {
+    padding: 1rem;
+    display:grid;
+    align-items:center;
+    border:1px solid #05c3f9;
+    border-radius:8px;
+    justify-items:left;
+}
+.repoDetails {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
+}
+.detailsCard {
+  display: grid;
+  grid-template-columns: 200px 230px;
+  grid-gap:1
+}
+.error{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.repoTitle{
+    color:green
+}
+
+.repositoryDiv{
+    margin:20px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}

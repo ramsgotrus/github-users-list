@@ -1,0 +1,1 @@
+export const enum Size { Small = 's', Medium = 'm', Large = 'l' }
